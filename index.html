@@ -3,31 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Chocolate</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
-          >SIMPLY CHOCOLATE
-          <img src="./img/chocolate-icon.svg" alt="chocolate icon" />
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo" href="./index.html"
+          ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
+          <img
+            class="header-logo-img"
+            src="./img/chocolate-icon.svg"
+            alt="chocolate icon"
+          />
         </a>
-        <ul>
-          <li>
-            <a href="">Home my</a>
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a href="" class="header-menu-link">Home my</a>
           </li>
-          <li>
-            <a href="">How it’s made?</a>
+          <li class="header-menu-item">
+            <a href="https://www.google.com/" class="header-menu-link"
+              >How it’s made?</a
+            >
           </li>
-          <li>
-            <a href="">Chocolate is loved</a>
+          <li class="header-menu-item">
+            <a href="" class="header-menu-link">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="" target="_blank" rel="noopener noreferrer">insta</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">fb</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">twit</a></li>
+      <ul class="header-soc-list">
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >insta</a
+          >
+        </li>
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >fb</a
+          >
+        </li>
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >twit</a
+          >
+        </li>
       </ul>
     </header>
     <main>
@@ -43,7 +81,7 @@
       <section>
         <ul>
           <li>
-            <h3>Unsurpassed taste</h3>
+            <h3 id="title">Unsurpassed taste</h3>
             <p>
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
@@ -52,7 +90,7 @@
             </p>
           </li>
           <li>
-            <h3>Affordable price</h3>
+            <h3 id="title2">Affordable price</h3>
             <p>
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
@@ -62,7 +100,7 @@
             </p>
           </li>
           <li>
-            <h3>Own production</h3>
+            <h3 id="title3">Own production</h3>
             <p>
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
