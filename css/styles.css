@@ -2,12 +2,44 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 .link {
@@ -41,6 +73,11 @@ ul {
 }
 
 /** --------------HEADER----------------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
 
 .header-logo {
   color: #111;
@@ -85,7 +122,13 @@ ul {
 /** --------------HERO----------------- */
 
 .hero {
-  background: rgba(17, 17, 17, 0.6);
+  padding-bottom: 80px;
+}
+
+.hero-container {
+  background-color: rgba(17, 17, 17, 0.6);
+  border-radius: 30px;
+  padding: 380px 40px 40px 40px;
 }
 
 .hero-title {
@@ -94,6 +137,8 @@ ul {
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.03em;
+  margin-bottom: 32px;
+  max-width: 484px;
 }
 .hero-buy-btn {
   color: #fff;
@@ -124,6 +169,8 @@ ul {
 
 .features {
   background: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .features-list {
 }
@@ -134,6 +181,7 @@ ul {
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 18px;
 }
 .features-item-text {
   color: rgba(255, 255, 255, 0.7);
@@ -147,9 +195,12 @@ ul {
 /** --------------TASTE----------------- */
 
 .taste {
+  padding-top: 120px;
 }
 
 .taste-title {
+  max-width: 412px;
+  margin: 0 auto 28px;
 }
 
 .taste-text {
@@ -158,6 +209,8 @@ ul {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  margin: 0 auto 50px;
+  max-width: 486px;
 }
 
 .taste-list {
@@ -182,6 +235,7 @@ ul {
 /** --------------MADE----------------- */
 
 .made {
+  padding-top: 120px;
 }
 
 .made-title {
