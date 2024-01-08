@@ -125,6 +125,15 @@ img {
   letter-spacing: -0.02em;
 }
 
+.header-soc-icon {
+  fill: transparent;
+  stroke: #111;
+}
+
+.header-soc-icon:hover {
+  stroke: #fd9222;
+}
+
 /* .header-menu-link:hover {
   color: #fd9222;
 }
@@ -158,6 +167,14 @@ img {
 
 .hero-container {
   background-color: rgba(17, 17, 17, 0.6);
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4)
+    ),
+    url(../img/chocolate-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-radius: 30px;
   padding: 380px 40px 40px 40px;
 }
@@ -329,6 +346,27 @@ img {
 }
 
 .made-list {
+}
+
+.made-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.made-item::before {
+  content: '';
+  display: flex;
+  width: 8px;
+  height: 8px;
+  background-color: #111111;
+  border-radius: 50%;
+  border: 1px solid #eceded;
+  flex-shrink: 0;
+}
+
+.made-item:hover::before {
+  background-color: #fd9222;
 }
 
 .made-item + .made-item {
