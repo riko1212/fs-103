@@ -563,5 +563,62 @@
         </a>
       </li>
     </ul>
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="modal-close-btn">X</button>
+        <p class="modal-title section-title">
+          LEAVE A REVIEW ABOUT <span>OUR CHOCOLATE</span>
+        </p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="modal-input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input"
+                placeholder="David"
+                id="user-name"
+              />
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-label">Email</label>
+            <input
+              type="email"
+              name="user-email"
+              class="modal-input"
+              placeholder="test@mail.com"
+              id="user-email"
+            />
+          </div>
+          <div class="modal-field">
+            <label class="modal-label"
+              ><span>Phone number</span>
+              <input
+                type="tel"
+                required
+                name="user-tel"
+                class="modal-input"
+                placeholder="User phone"
+              />
+            </label>
+          </div>
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-text"
+              placeholder="Enter text"
+            ></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
